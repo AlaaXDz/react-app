@@ -39,8 +39,8 @@ function Detail() {
 export default Detail
 
 const Container = styled.div`
-    min-height: calc(100vh-70px);
-    padding: 0 calc(3.5vw +5px);
+    min-height: calc(100vh - 70px);
+    padding: 0 calc(3.5vw + 5px);
     position: relative;
 `
 const Background = styled.div`
@@ -55,7 +55,6 @@ const Background = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
-
   }
 `
 const ImageTitle = styled.div`
@@ -86,7 +85,6 @@ const PLayButton = styled.button`
   border: none;
   letter-spacing: 1.8px;
   cursor: pointer;
-
   &:hover {
     background : rgb (198, 198, 198);
   }
@@ -110,7 +108,6 @@ const AddButton = styled.button`
   border: 2px solid white;
   background-color: rgba(0, 0, 0, 0.6);
   cursor: pointer; 
-
   span {
     font-size: 30px;
     color: white;
